@@ -16,13 +16,22 @@ const IconWrapper = styled.span`
   align-items: center;
 `;
 
+const LogoLink = styled.a`
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+`;
+
 const Logo = () => {
   return (
     <LogoContainer>
-      <IconWrapper>
-        <img src="/logo.png" alt="Logo" style={{ height: '40px', width: 'auto' }} />
-      </IconWrapper>
-      <span>Phishing Detection</span>
+      <LogoLink href="/">
+        <IconWrapper>
+          <img src="/logo.png" alt="Logo" style={{ height: '40px', width: 'auto' }} />
+        </IconWrapper>
+        <span>Phishing Detection</span>
+      </LogoLink>
     </LogoContainer>
   );
 };
