@@ -90,9 +90,9 @@ vercel deploy
 ## Contributors
 
 - Sujeet Pawar - Team Lead & Developer
-- Shravani Pawar - ML Engineer
+- Shravani Pawar - ML Developer
 - Siya Patil - Frontend Developer
-- Abhishek Sawant - Backend Developer
+- Abhishek Sawant - IT Support
 
 ## Contact
 

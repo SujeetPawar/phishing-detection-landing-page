@@ -30,6 +30,7 @@ const CarouselContainer = styled.div`
   .carousel .slide {
     background: transparent;
     padding: 20px;
+    box-shadow: none;
   }
   
   .carousel .control-dots .dot {
@@ -43,6 +44,44 @@ const CarouselContainer = styled.div`
   .carousel .control-next.control-arrow:before {
     border-left: 8px solid #4b0082;
   }
+  
+  /* Remove any shadow that might be inherited */
+  .carousel-root, .carousel, .slider-wrapper, .slider, .slide {
+    box-shadow: none !important;
+  }
+  
+  /* Fix for hover effects */
+  .carousel .slide:hover {
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+  
+  /* Override any default hover behavior */
+  .carousel .slide * {
+    box-shadow: none !important;
+  }
+  
+  /* Style the arrow buttons with a creamy background on hover */
+  .carousel .control-arrow {
+    background: transparent !important;
+    transition: background 0.3s ease !important;
+  }
+  
+  .carousel .control-arrow:hover {
+    background: rgba(255, 255, 255, 0.8) !important; /* More whitish color with transparency */
+  }
+  
+  /* Style the arrow buttons specifically */
+  .carousel .control-prev.control-arrow, 
+  .carousel .control-next.control-arrow {
+    opacity: 0.8;
+  }
+  
+  .carousel .control-prev.control-arrow:hover, 
+  .carousel .control-next.control-arrow:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.8) !important; /* More whitish color with transparency */
+  }
 `;
 
 const FeatureCard = styled(motion.div)`
@@ -51,7 +90,6 @@ const FeatureCard = styled(motion.div)`
   padding: 40px 30px;
   margin: 0 auto;
   max-width: 800px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   height: 350px;
   display: flex;
   flex-direction: column;

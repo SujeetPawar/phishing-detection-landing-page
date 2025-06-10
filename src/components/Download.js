@@ -166,7 +166,7 @@ const Download = () => {
         </SectionTitle>
         
         <DownloadButton 
-          href="https://github.com/sujeetpawar/phishing-detection-extension/phishing-detection-extension.zip"
+          href="https://github.com/SujeetPawar/phishing-detection-extension/archive/refs/heads/main.zip"
           variants={itemVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}

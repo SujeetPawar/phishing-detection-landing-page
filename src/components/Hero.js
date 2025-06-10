@@ -34,6 +34,9 @@ const HeroSubtitle = styled(motion.p)`
   font-size: 1.5rem;
   margin-bottom: 40px;
   max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
 
   @media screen and (max-width: 768px) {
     font-size: 1rem;

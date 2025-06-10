@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LogoContainer = styled.div`
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -11,17 +11,18 @@ const LogoContainer = styled.div`
 
 const IconWrapper = styled.span`
   margin-right: 10px;
-  font-size: 1.8rem;
   color: #4b0082;
+  display: flex;
+  align-items: center;
 `;
 
 const Logo = () => {
   return (
     <LogoContainer>
       <IconWrapper>
-        <img src="/logo.png" alt="Logo"  />
+        <img src="/logo.png" alt="Logo" style={{ height: '40px', width: 'auto' }} />
       </IconWrapper>
-      Phishing Detection Extension 
+      <span>Phishing Detection</span>
     </LogoContainer>
   );
 };

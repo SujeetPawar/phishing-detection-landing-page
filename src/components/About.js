@@ -34,43 +34,46 @@ const TeamContainer = styled.div`
 `;
 
 const TeamMember = styled(motion.div)`
-  background-color: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   transition: transform 0.3s ease;
-
+  
   &:hover {
     transform: translateY(-10px);
   }
 `;
 
 const MemberImage = styled.div`
-  height: 250px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
   background-color: #4b0082;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 5rem;
+  font-size: 3rem;
   text-transform: uppercase;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(75, 0, 130, 0.3);
 `;
 
 const MemberInfo = styled.div`
-  padding: 20px;
   text-align: center;
 `;
 
 const MemberName = styled.h3`
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
   color: #333;
 `;
 
 const MemberRole = styled.p`
   font-size: 1rem;
   color: #666;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 `;
 
 const SocialLinks = styled.div`
