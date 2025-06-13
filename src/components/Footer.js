@@ -179,7 +179,7 @@ const Footer = () => {
             <Logo />
           </FooterLogo>
           <FooterDescription>
-            PhishGuard is a powerful browser extension that protects you from phishing attempts and online scams using advanced AI technology.
+            Phishing Detection Extension is a powerful browser extension that protects you from phishing attempts and online scams.
           </FooterDescription>
           <SocialLinks>
             <SocialIcon href="https://github.com/SujeetPawar/phishing-detection-extension" target="_blank" rel="noopener noreferrer">

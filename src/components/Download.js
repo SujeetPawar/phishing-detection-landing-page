@@ -162,18 +162,19 @@ const Download = () => {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          Download PhishGuard
+          Download Phishing Detection Extension
         </SectionTitle>
         
         <DownloadButton 
-          href="https://github.com/SujeetPawar/phishing-detection-extension/archive/refs/heads/main.zip"
+          href="https://chromewebstore.google.com/detail/phishing-detection-extens/nhmeihikaghmllmpofiobkjallekojgl?authuser=0&hl=en-GB"
+          target="_blank"
           variants={itemVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <FaDownload /> Download Now
+          <FaDownload /> Add to chrome
         </DownloadButton>
         
         <BrowsersContainer
@@ -198,7 +199,7 @@ const Download = () => {
             <StepNumber>1</StepNumber>
             <StepTitle>Download</StepTitle>
             <StepDescription>
-              Click the download button to get the latest version of PhishGuard extension.
+              Download button will be redirected to chrome web store 
             </StepDescription>
           </Step>
           
@@ -206,7 +207,7 @@ const Download = () => {
             <StepNumber>2</StepNumber>
             <StepTitle>Install</StepTitle>
             <StepDescription>
-              Open your browser's extension page, enable developer mode, and load the unpacked extension.
+              Just Click Add to Chrome and it will be added as extension 
             </StepDescription>
           </Step>
           
@@ -214,7 +215,7 @@ const Download = () => {
             <StepNumber>3</StepNumber>
             <StepTitle>Protect</StepTitle>
             <StepDescription>
-              That's it! PhishGuard is now actively protecting you from phishing attempts while you browse.
+              That's it! Phishing Detection Extension is now actively protecting you from phishing attempts while you browse.
             </StepDescription>
           </Step>
         </StepsContainer>
