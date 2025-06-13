@@ -174,7 +174,7 @@ const Download = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <FaDownload /> Add to chrome
+          <FaDownload /> Add to Chrome
         </DownloadButton>
         
         <BrowsersContainer
@@ -199,7 +199,7 @@ const Download = () => {
             <StepNumber>1</StepNumber>
             <StepTitle>Download</StepTitle>
             <StepDescription>
-              Download button will be redirected to chrome web store 
+              The download button will redirect you to the Chrome Web Store.
             </StepDescription>
           </Step>
           
@@ -207,7 +207,7 @@ const Download = () => {
             <StepNumber>2</StepNumber>
             <StepTitle>Install</StepTitle>
             <StepDescription>
-              Just Click Add to Chrome and it will be added as extension 
+              Just click 'Add to Chrome' and it will be installed as an extension.
             </StepDescription>
           </Step>
           
