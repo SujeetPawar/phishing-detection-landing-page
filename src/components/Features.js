@@ -122,7 +122,7 @@ const features = [
   {
     icon: <FaShieldAlt />,
     title: "Real-Time Protection",
-    description: "PhishGuard actively monitors your browsing activity and provides instant alerts when you visit suspicious websites that might be phishing attempts."
+    description: "Phishing Detection Extension actively monitors your browsing activity and provides instant alerts when you visit suspicious websites that might be phishing attempts."
   },
   {
     icon: <FaRobot />,

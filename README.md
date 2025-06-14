@@ -1,12 +1,12 @@
-# PhishGuard Landing Page
+# Phishing Detection Extension Landing Page
 
-This is the landing page for the PhishGuard Phishing Detection Extension project. The landing page is built with React and is easily deployable to Vercel.
+This is the landing page for the  Phishing Detection Extension project. The landing page is built with React and is easily deployable to Vercel.
 
 ## Features
 
 - Responsive design that works on all device sizes
 - Modern UI with animations and transitions
-- Information about the PhishGuard extension features
+- Information about the Phishing Detection Extension features
 - Download section with installation instructions
 - Team information
 - Contact form
